@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Cadastro</title>
+</head>
+
+<body>
+	<div>
+		<form>
+			<fieldset>
+				<legend>Cadastro Cliente</legend>
+				<div>
+					<table>
+						<tr>
+							<td>Nome:</td>
+							<td><input type="text" size="50" /></td>
+						</tr>
+					</table>
+				</div>
+				<div>
+
+					<label>Sexo:</label>
+					<label><input type="radio" name="gem" value="masc">Masculino</label>
+
+					<label>
+						<input type="radio" name="gem" value="fem">Feminino </label>
+
+				</div>
+				<div>
+					<table>
+						<tr>
+							<td>Idade:</td>
+							<td><input type="number" min="0" /></td>
+						</tr>
+						<tr>
+							<td>Endereço:</td>
+							<td><input type="text" size="70" /></td>
+						</tr>
+						<tr>
+							<td>Cidade:</td>
+							<td><input type="text" size="50" /></td>
+						</tr>
+					</table>
+				</div>
+				<div>
+					<table>
+						<tr>Estado:</tr>
+						<select name="select">
+							<option value="valor1">MA</option>
+							<option value="valor2" selected>SP</option>
+							<option value="valor3">MG</option>
+							<option value="valor4">RS</option>
+							<option value="valor5" selected>PA</option>
+							<option value="valor6">MG</option>
+						</select>
+					</table>
+				</div>
+				<div>
+					<table>
+						<tr>
+							<td>CEP:</td>
+							<td><input type="text" size="25" /></td>
+						</tr>
+						<tr>
+							<td>Tel/Res:</td>
+							<td><input type="text" size="30" /></td>
+						</tr>
+						<tr>
+							<td>Tel/Cel:</td>
+							<td><input type="text" size="30" /></td>
+						</tr>
+						<tr>
+							<td>Email:</td>
+							<td><input type="text" size="50" /></td>
+						</tr>
+					</table>
+				</div>
+
+			</fieldset>
+			<div>
+				<button type="submite">Incluir</button>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
